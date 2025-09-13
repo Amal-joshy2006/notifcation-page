@@ -1,0 +1,104 @@
+/* === Global Styles === */
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #e3e9ff 0%, #ffffff 100%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand i {
+    color: #FFD700 !important;
+}
+.navbar-brand b {
+    font-weight: 700;
+}
+
+/* Center Wrapper */
+.center-wrapper {
+    flex: 1;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Glass Card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Textarea */
+textarea {
+    resize: none;
+}
+
+/* Buttons */
+.btn-glossy,
+.btn-add {
+    background: linear-gradient(90deg, #00dbde 0%, #6fff00 100%);
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.08);
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-glossy {
+    color: #000;
+    font-size: 1.1rem;
+    padding: 12px 36px;
+    margin-top: 1.2rem;
+}
+
+.btn-add {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 30px;
+    margin-bottom: 1.5rem;
+}
+
+.btn-glossy:hover,
+.btn-add:hover {
+    background: linear-gradient(270deg, #6fff00 0%, #00dbde 100%);
+    box-shadow: 0 4px 36px rgba(50, 0, 120, 0.15);
+    filter: brightness(1.1);
+}
+
+/* Character Counter */
+.charcount {
+    font-size: 0.95em;
+    color: #7c4dff;
+    padding-top: 4px;
+    margin-bottom: 0;
+}
+
+/* Tables */
+.table-custom {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.table-custom thead tr {
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
